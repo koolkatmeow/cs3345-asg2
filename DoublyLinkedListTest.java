@@ -5,34 +5,43 @@ public class DoublyLinkedListTest {
 		
 		// Comment only the test functions you want to run
 		
-		// testPrintEmptyListForward();
-		// testPrintEmptyListBackward();
+		 testPrintEmptyListForward();
+
+		 testPrintEmptyListBackward();
+
 		// testEmptyGet();
-		// testAddFirstAndGet();
-		// testAddFirstForwards();
-		// testAddFirstBackwards();
-		// testAddLastAndGet();
+		testAddFirstAndGet();
+		testAddFirstForwards();
+		testAddFirstBackwards();
+		testAddLastAndGet();
 		// testAddLastForwards();
 		// testAddLastBackwards();
-		// testIsEmpty();
-		// testGetLength();
-		// testRemoveFromEmptyList();
-		// testRemoveFromListWithOneElementNegative();
-		// testRemoveFromListWithOneElementPositive();
-		// testRemoveFromListWithTwoElementNegative();
-		// testRemoveFromListWithTwoElementPositive();
-		// testRemoveFromListWithThreeElementNegative();
-		// testRemoveFromListWithThreeElementPositive();
-		// testIterator();
+		 testIsEmpty();
+		 testGetLength();
+		testRemoveFromEmptyList();
+		 testRemoveFromListWithOneElementNegative();
+		 testRemoveFromListWithOneElementPositive();
+		testRemoveFromListWithTwoElementNegative();
+		testRemoveFromListWithTwoElementPositive();
+		testRemoveFromListWithThreeElementNegative();
+		testRemoveFromListWithThreeElementPositive();
+		testIterator();
 		
 
 	}
 	
 	public static void testPrintEmptyListForward() {
 		//TODO
+		List<String> list = new DoublyLinkedList<String>();
+		System.out.println("Empty list");
+		list.print();
+
 	}
 	public static void testPrintEmptyListBackward() {
 		//TODO
+		List<String> list = new DoublyLinkedList<String>();
+		System.out.println("Empty list backwards");
+		list.printBackwards();
 	}
 	
 	public static void testEmptyGet() {
